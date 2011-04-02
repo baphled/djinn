@@ -42,7 +42,7 @@ module Djinn
           require File.join(Rails.root, 'config', 'environment')
           logger = Logger.new(STDOUT)
           ActiveRecord::Base.logger = logger
-          ActiveResource::Base.logger = logger
+          # ActiveResource::Base.logger = logger
         end
         
     end
